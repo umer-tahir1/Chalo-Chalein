@@ -47,9 +47,9 @@ export function RootLayout() {
   }, []);
 
   return (
-    <div className={`${isDashboard ? 'h-screen' : 'min-h-screen'} bg-neutral-50 flex flex-col font-sans text-neutral-900`}>
+    <div className={`${isDashboard ? 'min-h-screen lg:h-screen' : 'min-h-screen'} bg-neutral-50 flex flex-col font-sans text-neutral-900`}>
       <Navbar />
-      <main className={`flex-1 flex flex-col ${isDashboard ? 'overflow-hidden' : ''}`}>
+      <main className={`flex-1 flex flex-col ${isDashboard ? 'lg:overflow-hidden' : ''}`}>
         <Outlet />
       </main>
     </div>

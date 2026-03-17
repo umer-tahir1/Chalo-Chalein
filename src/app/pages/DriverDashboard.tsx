@@ -305,7 +305,7 @@ export function DriverDashboard() {
   );
 
   return (
-    <div className="flex-1 flex flex-col lg:flex-row h-full overflow-hidden">
+    <div className="flex-1 flex flex-col lg:flex-row lg:h-full lg:overflow-hidden">
       {/* ── LEFT PANEL ── */}
       <div className="w-full lg:w-[420px] flex-shrink-0 bg-white border-r border-neutral-100 flex flex-col shadow-sm z-10">
 

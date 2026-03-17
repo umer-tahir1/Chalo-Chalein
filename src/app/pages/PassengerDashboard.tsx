@@ -557,7 +557,7 @@ export function PassengerDashboard() {
   const isEvening = hour >= 17 || hour <= 4;
 
   return (
-    <div className={`flex-1 flex flex-col lg:flex-row h-full overflow-hidden ${isEvening ? 'bg-slate-50' : ''}`}>
+    <div className={`flex-1 flex flex-col lg:flex-row lg:h-full lg:overflow-hidden ${isEvening ? 'bg-slate-50' : ''}`}>
       <div className="w-full lg:w-[430px] xl:w-[470px] flex-shrink-0 bg-white border-r border-neutral-100 flex flex-col shadow-sm z-10">
         <div className="px-5 pt-5 pb-3 border-b border-neutral-100">
           <div className="flex items-start justify-between gap-3">
